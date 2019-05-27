@@ -1,0 +1,135 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-size: 16px;
+}
+
+.container {
+  flex: 1;
+}
+
+#containerAdmin{
+	padding-top: 1em;
+}
+
+nav{
+	margin-bottom: 1em;
+}
+
+/* Estilos enlace*/
+a.titulo-link{
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 1.25em;
+	color: red;
+}
+a.titulo-link:hover{
+	color: grey;
+}
+a.sidebar-link{
+	color: red;
+}
+a.sidebar-link:hover{
+	color: grey;
+}
+
+/* Estilos botones */
+.botones{
+	margin-top: 1em;
+}
+.botones a{
+	margin-right: .5em;
+}
+
+#btn-salir{
+	margin-bottom: 2em;
+	margin-top: 1em;
+}
+
+/* Estilos imagenes */
+.img-principal{
+	float: left;
+	padding-right: 1em;
+}
+.zoom {
+    transition: transform .2s; /* Velocidad de la animación */
+}
+
+.zoom:hover {
+    transform: scale(1.05); /* agrandar un 110% al pasar el mouse */
+}
+
+.card-img-top{
+	max-height: 50%;
+}
+
+/*Tamaño carta*/
+section .card-group div.card {
+	width: 20em;
+}
+
+.fila-cartas{
+	margin-top: 1.25em;
+	margin-bottom: 1.25em;
+}
+
+.fila-cartas .card:not(:last-child){
+	margin-right: 3em;
+}
+
+/* Footer */
+footer{
+	margin-top: 2em;
+	height: 4.6875em;
+	width: 100%;
+}
+footer a{
+	float: right;
+}
+footer a:hover{
+	text-decoration: none;
+}
+footer p{
+	color: white;
+	font-size: 1em;
+	padding-top: 1.5em;
+	padding-left: 1em;
+}
+footer p:hover{
+	color: red;
+	transition: color 2000ms linear;
+}
+
+/*Estilos sidebar en individual.php*/
+.sidebar{
+	margin-top: 1em;
+}
+
+.sidebar h5{
+	margin-bottom: 1em;
+}
+
+/*Estilos redes sociales en contacto.php*/
+.redes-sociales{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.redes-sociales a{
+	margin-left: .5em;
+	color: black;
+}
+.redes-sociales a:hover{
+	text-decoration: none;
+	color: #212529;
+}
+.facebook{
+	color: #3b5998;
+}
+.twitter{
+	color: #00aced;
+}
+.instagram{
+	color: #cd486b;
+}
