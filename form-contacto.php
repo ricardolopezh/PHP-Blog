@@ -1,5 +1,5 @@
 <?php 
-$email = "ricardo_51297@outlook.com";
+$email = ""; //Agregar email de destino
 
 $nombre = $_POST["inputNombre"];
 $email_input = $_POST["inputEmail"];
